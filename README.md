@@ -1,0 +1,4 @@
+# Round-Robin-Chess-Tournament-Simulation
+This is a personal project of mine, coded in Python, that uses a Monte Carlo simulation to simulate the results of a round robin chess tournament. A round robin is a tournament in which each competitor plays against every other competitor a set number of times. Round robin tournaments are commonly used at the top levels of chess. This project seeks to estimate each player's probability that they will win or place in the tournament. 
+
+The simulation uses the elo rating system to estimate the probability of a win, loss, or draw for each matchup. Each player is paired against each other player, and then the results are tallied to simulate the outcome of a single tournament. Then, using a Monte Carlo approach, the tournament is conducted repeatedly to estimate each player's chance of winning the tournament. 
